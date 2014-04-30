@@ -1,0 +1,19 @@
+<section class="ascPage">
+<div class="gridContainer clearfix">
+  <div class="search">
+    <h1>Associate Directory</h1>
+    <label>search: </label>
+    <input ng-model="query" placeholder="Search for associates" autofocus>  
+  </div>
+  
+   <ul class="asclist">
+     <li class="asc cf" ng-repeat="item in staff | filter: query">
+        <div id="div1" class="fluid"><img ng-src="{{item.photoSRC}}" class="imgTwitter" /></div>
+        <div id="div2" class="fluid">{{item.name}}</div>
+         <div id="div3" class="fluid" align="center">
+           <p>{{item.title}}<br /></p>
+         </div>
+      </li>
+    </ul>  
+</div>
+</section>

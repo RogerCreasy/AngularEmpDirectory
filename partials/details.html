@@ -1,0 +1,14 @@
+<section class="ascinfo">
+  <div class="asc cf" ng-model="staff">
+    <a href="#/details/{{prevItem}}" class="btn btn-left">&lt;Previous Associate</a>
+    <a href="#/details/{{nextItem}}" class="btn btn-right">Next Associate&gt;</a>
+    <img ng-src="{{staff[whichItem].photoSRC}}" alt="Photo of {{staff[whichItem].name}}">
+    <h1>{{staff[whichItem].name}}</h1>
+    <div class="info">
+      <h3>{{staff[whichItem].title}}</h3>
+      
+      <div class="bio">{{staff[whichItem].subTitle}}</div>
+    </div>
+  </div>
+  <a href="index.html">&laquo; Back to search</a>
+</section>

@@ -13,6 +13,14 @@ myApp.config(['$routeProvider', function($routeProvider) {
     templateUrl: 'partials/list.html',
     controller: 'ListController'
   }).
+  when('/details/:itemId', {
+    templateUrl: 'partials/details.html',
+    controller: 'DetailsController'
+  }).
+  when('/rogercreasy', {
+    templateUrl: 'partials/detail/:name == Roger Creasy',
+    controller: 'ListController'
+  }).
   otherwise({
     redirectTo: '/list'
   });

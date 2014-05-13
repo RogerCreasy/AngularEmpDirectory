@@ -4,6 +4,7 @@
 	     "title":"Regional Digital Director for Halifax Media Group",
 	     "subTitle":"Sales, Marketing, Digital and Social Media strategist within the media industry.",
 	     "bio":"Roger's strength is finding solutions to problems through any team he lead. His programming background helps drive analytic thought-processes. Roger's wide range of experience and the creative/artistic side of his personality help him find solutions others may not. ",
+		 "Department":"Digital",
 	     "photoSRC":"http://m.c.lnkd.licdn.com/mpr/mpr/shrink_200_200/p/3/000/079/037/24887cc.jpg"
 	  },
 	  {
@@ -11,6 +12,15 @@
 	    "title":"City Government Reporter for the Times-News",
 	    "subTitle":"Elon alumna, expert thumb wrestler & passionate, dedicated reporter. Interested in Eastern Africa & press rights",
 	    "bio":"  ",
+		"Department":"Editorial",
 	    "photoSRC":"https://pbs.twimg.com/profile_images/3431106296/8877e1b312824f5894039f257c61f037_400x400.jpeg"
-	  }
+	  },
+	  {
+		"name":"Monica Joyce",
+	    "title":"Advertising Sales",
+	    "subTitle":"Marketing professional focused on providing innovative solutions for advertising, product management, and promotional needs of large and small scale organizations. Experienced managing B2B and B2C marketing, with an extensive background in print and online campaigns. Substantial focus on project management, including online identity development and social media strategy from inception to launch.",
+	    "bio":"  ",
+		"Department":"Advertising",
+	    "photoSRC":"https://media.licdn.com/mpr/mpr/shrink_200_200/p/1/000/02f/073/1843a18.jpg"
+	  }  
 ]

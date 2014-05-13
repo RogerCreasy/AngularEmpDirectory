@@ -2,17 +2,24 @@
 <div class="gridContainer clearfix">
   <div class="search">
     <h1>Associate Directory</h1>
-    <label>search: </label>
-    <input ng-model="query" placeholder="Search for associates" autofocus>  
+    Search:
+    <input ng-model="query[queryOrder]" placeholder="Search for associates" autofocus><br />
+    Search by:<br />
+    <select ng-model="queryOrder">
+       <option value="name" selected>NAME</option>
+       <option value="Department">DEPARTMENT</option>     
+    </select>     
   </div>
   
    <ul class="asclist">
      <li class="asc cf" ng-repeat="item in staff | filter: query">
+        <a href="#/details/{{staff.indexOf(item)}}">
         <div id="div1" class="fluid"><img ng-src="{{item.photoSRC}}" class="imgTwitter" /></div>
         <div id="div2" class="fluid">{{item.name}}</div>
          <div id="div3" class="fluid" align="center">
            <p>{{item.title}}<br /></p>
          </div>
+         </a>
       </li>
     </ul>  
 </div>

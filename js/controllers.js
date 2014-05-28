@@ -8,8 +8,8 @@ ascControllers.controller('ListController', ['$scope', '$http', function($scope,
   $http.get('js/staff.json').success(function(data) {
     $scope.staff = data;
 	$scope.ascOrder = 'name';
-	$scope.query = {}
-	$scope.queryOrder = '$'
+	$scope.query = {};
+	$scope.queryOrder = '$';
   });
 }]);
 
